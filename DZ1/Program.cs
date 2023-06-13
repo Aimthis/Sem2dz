@@ -1,13 +1,9 @@
 ﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-
+int a = 1;
 while(a < 100 || a > 999)
-{Console.Write("Введите трехзначное число: ");
-int a = int.Parse(Console.ReadLine());
-if(a > 99 || a < 1000)
 {
-    Console.WriteLine($"Среднее число {a / 10 % 10}");
+    Console.Write("Введите трехзначное число: ");
+    a = int.Parse(Console.ReadLine());
 }
-else
-{
-    Console.WriteLine("Введено не трехзначное число");
-}
+Console.WriteLine($"Среднее число: {a / 10 % 10}");
+
