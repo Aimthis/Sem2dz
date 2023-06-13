@@ -1,0 +1,15 @@
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.csproj.AssemblyReference.cache
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.GeneratedMSBuildEditorConfig.editorconfig
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.AssemblyInfoInputs.cache
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.AssemblyInfo.cs
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.csproj.CoreCompileInputs.cache
+C:\FGeekBrains\CSharp\Sem2\Z6\bin\Debug\net7.0\Z6.exe
+C:\FGeekBrains\CSharp\Sem2\Z6\bin\Debug\net7.0\Z6.deps.json
+C:\FGeekBrains\CSharp\Sem2\Z6\bin\Debug\net7.0\Z6.runtimeconfig.json
+C:\FGeekBrains\CSharp\Sem2\Z6\bin\Debug\net7.0\Z6.dll
+C:\FGeekBrains\CSharp\Sem2\Z6\bin\Debug\net7.0\Z6.pdb
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.dll
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\refint\Z6.dll
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.pdb
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\Z6.genruntimeconfig.cache
+C:\FGeekBrains\CSharp\Sem2\Z6\obj\Debug\net7.0\ref\Z6.dll
