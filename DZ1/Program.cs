@@ -2,7 +2,7 @@
 int a = 1;
 while(a < 100 || a > 999)
 {
-    Console.Write("Введите трехзначное число: ");
+    Console.Write("Пожалуйста, введите трехзначное число: ");
     a = int.Parse(Console.ReadLine());
 }
 Console.WriteLine($"Среднее число: {a / 10 % 10}");
