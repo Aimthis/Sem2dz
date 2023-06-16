@@ -9,8 +9,14 @@ int Ui = 0;
 // Запрос на ввод "N"
 Console.Write("Пожалуйста, введите пятизначное число: ");
 Ui = int.Parse(Console.ReadLine());
+// Добавляю метод на посчет куба числа
+double Cube (int some)
+{
+    result = some * some * some;
+    return result;
+}
 // Цикл на вывод кубов
 for(int i = 1; i <= Ui; i++)
 {
-    Console.Write("Пожалуйста, введите пятизначное число: ");
+    Console.WriteLine(Cube(i));
 }
