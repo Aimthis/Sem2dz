@@ -1,2 +1,22 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/* Задача 19: Напишите программу, которая принимает 
+на вход пятизначное число и проверяет, является ли 
+оно палиндромом.*/
+// Создаю переменную Ui - User Input
+int Ui;
+// Цикл на запрос ввода до условия задачи
+while(Ui < 10000 || Ui > 99999)
+{
+    Console.Write("Пожалуйста, введите пятизначное число: ");
+    Ui = int.Parse(Console.ReadLine());
+}
+// Задаю метод переворота
+int perevorot (int a, int b)
+{
+    while (a != 0)
+    {
+    b = (b * 10) + (a % 10); 
+    a = a / 10;
+    }
+return b;
+}
+
