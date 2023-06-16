@@ -19,7 +19,8 @@ double Cube (int some)
     return result;
 }
 // Цикл на вывод кубов
-for(int i = 1; i <= Ui; i++)
+for(int i = 1; i < Ui; i++)
 {
-    Console.WriteLine(Cube(i));
+    Console.Write($"{Cube(i)}, ");
 }
+Console.Write(Cube(Ui));
