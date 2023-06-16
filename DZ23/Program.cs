@@ -12,7 +12,7 @@ while(Ui <= 0)
 Console.Write("Пожалуйста, введите целое число больше нуля: ");
 Ui = int.Parse(Console.ReadLine());
 }
-// Добавляю метод на посчет куба числа
+// Добавляю метод на подсчет куба числа
 double Cube (int some)
 {
     double result = some * some * some;
