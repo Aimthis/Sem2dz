@@ -7,12 +7,15 @@
 // Создаю переменную Ui - User Input
 int Ui = 0;
 // Запрос на ввод "N"
-Console.Write("Пожалуйста, введите пятизначное число: ");
+while(Ui <= 0)
+{
+Console.Write("Пожалуйста, введите целое число больше нуля: ");
 Ui = int.Parse(Console.ReadLine());
+}
 // Добавляю метод на посчет куба числа
 double Cube (int some)
 {
-    result = some * some * some;
+    double result = some * some * some;
     return result;
 }
 // Цикл на вывод кубов
