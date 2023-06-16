@@ -23,8 +23,9 @@ UiZb = int.Parse(Console.ReadLine());
 // Создание метода
 double Rastoynie3D (int x1,int y1,int z1,int x2,int y2,int z2)
 {
-    double result = Math.Sqrt(Math.Pow(x2-x1) + Math.Pow(y2-y1) + Math.Pow(z2-z1));
+    double result = Math.Sqrt(Math.Pow(x2-x1, 2) + Math.Pow(y2-y1, 2) + Math.Pow(z2-z1, 2));
+    return result;
 }
+double itog = Rastoynie3D (UiXa, UiYa, UiZa, UiXb, UiYb, UiZb);
 
-
-    
+Console.Write($"Растояние между этим точками {itog}");
