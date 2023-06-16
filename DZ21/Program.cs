@@ -20,8 +20,11 @@ Console.Write("Пожалуйста, введите координату Y вт�
 UiYb = int.Parse(Console.ReadLine());
 Console.Write("Пожалуйста, введите координату Z второго числа: ");
 UiZb = int.Parse(Console.ReadLine());
-//
-
+// Создание метода
+double Rastoynie3D (int x1,int y1,int z1,int x2,int y2,int z2)
+{
+    double result = Math.Sqrt(Math.Pow(x2-x1) + Math.Pow(y2-y1) + Math.Pow(z2-z1));
+}
 
 
     
