@@ -18,7 +18,7 @@ double Cube (int some)
     double result = some * some * some;
     return result;
 }
-// Цикл на вывод кубов
+// Цикл на вывод кубов до введенного числа
 for(int i = 1; i < Ui; i++)
 {
     Console.Write($"{Cube(i)}, ");
